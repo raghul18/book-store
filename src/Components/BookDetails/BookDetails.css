@@ -1,0 +1,58 @@
+.back {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.details {
+    display: flex;
+    align-items: flex-start;
+}
+
+.details__book {
+    flex: 0.3;
+}
+
+.details__tab {
+    margin-top: 40px;
+    flex: 0.7;
+}
+
+.details__table {
+    display: table;
+    width: 100%;
+    max-width: 80%;
+    margin-bottom: 30px;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+tr {
+    font-size: 18px;
+}
+
+td:nth-child(odd) {
+    padding: 5px;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.price {
+    font-weight: bold;
+    color: green;
+}
+
+.details__image {
+    height: 380px;
+    width: 380px;
+    object-fit: contain;
+}
